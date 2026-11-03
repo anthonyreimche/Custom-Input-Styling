@@ -110,7 +110,7 @@ function checkboxRules(checkbox: Checkbox, corners: Corners): string[] {
       height: "13px",
       margin: "0",
       "flex-shrink": "0",
-      border: "1px solid var(--color-border)",
+      border: "1px solid var(--color-text-secondary)",
       "border-radius": radius,
       background: "var(--color-surface-2)",
       display: "inline-grid",
@@ -123,7 +123,7 @@ function checkboxRules(checkbox: Checkbox, corners: Corners): string[] {
       width: "7px",
       height: "7px",
       transform: "scale(0)",
-      background: "var(--color-text-primary)",
+      background: "var(--color-on-accent)",
       "clip-path": "polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%)",
     }),
     rule('input[type="checkbox"]:checked', {
@@ -131,10 +131,6 @@ function checkboxRules(checkbox: Checkbox, corners: Corners): string[] {
       "border-color": "var(--color-slider-fill)",
     }),
     rule('input[type="checkbox"]:checked::before', { transform: "scale(1)" }),
-    rule('input[type="checkbox"]:focus-visible', {
-      outline: "1px solid var(--color-text-primary)",
-      "outline-offset": "1px",
-    }),
   ];
 }
 

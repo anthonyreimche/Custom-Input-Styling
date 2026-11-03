@@ -93,10 +93,11 @@ lacks(compileCss(tweaks({ trackSize: 6 }), ""), "height: 6px");
     "appearance: none",
     "::before",
     ":checked",
-    ":focus-visible",
     "var(--color-slider-fill)",
     "border-radius: 3px",
   );
+  has(css, "background: var(--color-on-accent)", "border: 1px solid var(--color-text-secondary)");
+  lacks(css, ":focus-visible", "background: var(--color-text-primary)", "border: 1px solid var(--color-border)");
 }
 has(compileCss(tweaks({ checkbox: "styled", corners: "pill" }), ""), 'input[type="checkbox"]', "border-radius: 50%");
 {

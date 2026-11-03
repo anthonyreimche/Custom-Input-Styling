@@ -82,6 +82,6 @@ React is provided by the host at runtime via `api.react` and is never bundled.
 
 To iterate in the app: Extensions ▸ Dev ▸ Choose folder… and point it at the folder that contains this repo, then ↻ Reload the row after each `npm run build`. The Preferences section appears under Settings ▸ Extensions ▸ Input Styling.
 
-## License
+## Licence
 
 MIT — see [LICENSE](LICENSE).
