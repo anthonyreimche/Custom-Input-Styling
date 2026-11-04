@@ -1,7 +1,7 @@
 {
   "name": "safelight-input-styling",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Presets, tweaks and custom CSS for Safelight's input controls — slider knobs, checkboxes, switches, buttons and fields.",
   "type": "module",
   "scripts": {

@@ -1,7 +1,7 @@
 {
   "id": "com.safelight.input-styling",
   "name": "Input Styling",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Restyle Safelight's controls. Pick a preset (Safelight, Classic, Precise, Soft), then tweak any aspect: square, rounded or pill corners; round, square, pointed or line slider knobs and their size; track thickness; drawn checkboxes; numeric fields that grow while you type. Or write your own CSS against the app's styling hooks.",
   "author": "Anthony Reimche <anthonyreimche@gmail.com>",
   "main": "index.js",

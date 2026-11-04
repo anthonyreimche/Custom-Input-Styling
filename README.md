@@ -15,7 +15,7 @@ Preferences ▸ Extensions ▸ Input Styling. Pick one, then adjust anything bel
 | **Precise** | square | pointed | 10 / 4 px | styled | large |
 | **Soft** | pill | round | 14 / 8 px | styled | subtle |
 
-Safelight is the stock look and compiles to no CSS at all. A **Preview** card under the picker shows a real Develop slider, a checkbox, a switch, buttons and a number field, so you can judge a preset without leaving Preferences (the dialog's own controls restyle live too).
+Safelight is the stock look and compiles to no CSS at all. A **Preview** card under the picker shows a real Develop slider, a checkbox, a switch, buttons and a number field, so you can judge a preset without leaving Preferences (the dialogue's own controls restyle live too).
 
 ## Tweaks
 
